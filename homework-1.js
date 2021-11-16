@@ -1,4 +1,5 @@
 (function () {
+    console.log('***Домашнее задание на числа***')
     // ! 1. Получить число pi из Math и округлить его до 2-х знаков после точки
     const PI = Number(Math.PI.toFixed(2));
     console.log('Задача №1:', PI);
