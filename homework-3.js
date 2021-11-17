@@ -1,4 +1,5 @@
 (function (){
+    console.log('***Домашнее задание на объекты***')
     // ! 1.Создать объект с полем product, равным ‘iphone’
     const obj = {
         product : 'iphone'
