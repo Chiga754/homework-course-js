@@ -1,5 +1,5 @@
 (function () {
-    console.log('Домашнее задание по функциям');
+    console.log('***Домашнее задание по функциям***');
     // ! 1.Создать функцию multiply, которая будет принимать любое количество чисел и возвращать их произведение: multiply(1,2,3) = 6 (1*2*3). Если нет ни одного аргумента, вернуть ноль: multiply() // 0
 
     function multiply(){
@@ -43,13 +43,14 @@
     // ? Если переданно число в виде строки оно должно быть преобразованно к числу.
 
     function guessNumber(num) {
+        let randomNum = Math.round(Math.random() * (11 - 1) + 1);
         if(typeof num !== "number" || isNaN(num)){
             return new Error("Please provide a valid number");
         }
         if(num > 10 || num < 1){
             return new Error('Please provide number in range 0 - 10');
         }
-        if(num === Math.round(Math.random() * (11 - 1) + 1)){
+        if(num === randomNum){
             return 'You win';
         }else{
             return `You are lose, your number is ${num} , the random number is  ${randomNum}`;
