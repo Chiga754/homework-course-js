@@ -90,6 +90,6 @@
         .sort((prev, next) => prev.price - next.price);
     }
 
-    console.log(filterCollection(products, 15, 30));
+    console.log('Задание №7: ',filterCollection(products, 15, 30));
 })();
 
