@@ -1,0 +1,17 @@
+table {
+    margin: 0 auto;
+    border-top: 1px solid #c5c5c5;
+    border-collapse:collapse;
+}
+table tr:nth-child(1){
+    border-bottom: 2px solid #c5c5c5;
+}
+
+table th, td {
+    text-align: start;
+    padding: 10px 60px;
+    border-top: 1px solid #c5c5c5;
+}
+table tr:last-child{
+    border-bottom: none;
+}
